@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cambio de Contrase&ntilde;a | Gamificacion </title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap);
+            *{
+                font-family: 'Roboto', sans-serif;
+            }
+        </style>
+    </head>
+    <body style="margin: 30px 30px 30px 30px;">
+        <div align="center">
+            <h1>Cambio manual de contrase&ntilde;a </h1>
+        </div>
+        <div align="justify">
+            Hola <b>$user:</b>
+            <p>
+                Se ha realizado un cambio de contraseña, las credenciales de acceso han cambiado:
+                <br><br>
+                <b>Usuario:</b> $email
+                <b><br>Nueva Contrase&ntilde;a:</b> $passwordNuevo
+                <b><br>Contrase&ntilde;a Anterior:</b> $passwordAnterior
+
+                <br><br>
+                Si no ha realizado el cambio, notifica a tu profesor/Administrador y realiza el cambio de contraseña.
+            </p>
+        </div>
+    </body>
+</html>

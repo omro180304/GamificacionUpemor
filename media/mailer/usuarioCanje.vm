@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Notificacion de Canje Completado | Gamificacion </title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap);
+            *{
+                font-family: 'Roboto', sans-serif;
+            }
+        </style>
+    </head>
+
+    <body style="margin: 30px 30px 30px 30px;">
+        <div align="center">
+            <h1>Se ha realizado un canje.</h1>
+        </div>
+        <div align="justify">
+            Profesor@: $profesor<br>
+                El alumno <b>$alumno $alumnoape</b> a realizado el canje de <b>$premio</b> en la materia: <b>$materia</b>
+                <br>
+                Canje completado favor de aplicar el premio canjeado.
+            </p>
+        </div>
+    </body>
+</html>

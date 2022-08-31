@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Verificaci&oacute;n de cuenta | Gamificacion </title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap);
+            *{
+                font-family: 'Roboto', sans-serif;
+            }
+        </style>
+    </head>
+
+    <body style="margin: 30px 30px 30px 30px;">
+        <div align="center">
+            <h1>Tu registro se ha completado con exito</h1>
+        </div>
+        <div align="justify">
+            Hola <b>$user:</b>
+            <p>
+                Tu registro esta activo, ya esta listo para poder acceder al sistema.
+                <br><br>
+                Gracias y bievenenid@
+            </p>
+        </div>
+    </body>
+</html>
