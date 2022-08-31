@@ -1,0 +1,12 @@
+@import "mainTheme.scss";
+@import "addons.scss";
+
+// This file prefixes all rules with the theme name to avoid causing conflicts with other themes.
+// The actual styles should be defined in aguaLimpiaTheme.scss
+
+@include font-face("Eurostile","http://tiamex.ddns.net/sitios/fonts/Eurostile.ttf",400,normal);
+
+.mainTheme{
+  @include addons;
+  @include mainTheme;
+}
